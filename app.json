@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Test-One",
+    "slug": "test-one",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.atondoluisorg.testone"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.atondoluisorg.testone"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "da6fe38c-bcd1-4d02-a37c-d5cbc820df78"
+      }
+    },
+    "owner": "atondo.luis-org",
+    "updates": {
+      "url": "https://u.expo.dev/da6fe38c-bcd1-4d02-a37c-d5cbc820df78"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
